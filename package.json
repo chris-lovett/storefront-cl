@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-storefront-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple online storefront deployed on Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "login": "wrangler login"
+  },
+  "devDependencies": {
+    "wrangler": "^3.30.0"
+  }
+}
